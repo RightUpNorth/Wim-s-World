@@ -1,0 +1,14 @@
+{
+    "path": "$WIMSWORLD",
+    "load_package_once": true,
+    "version": "20",
+    "enable": true,
+    "env": [
+        {
+            "WIMSWORLD": "C:/Github/Wim-s-World"
+        },
+        {
+            "PYTHONPATH" : "$WIMSWORLD/scripts/"
+        },
+    ]
+}
