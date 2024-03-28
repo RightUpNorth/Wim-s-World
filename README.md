@@ -24,18 +24,33 @@ Feel empowered to modify data as you see fit, but remember: the goal is to craft
 
 ## Installation
 
-### Summoning the HDA
+Welcome to the enchanting setup process for Wim's World! To ensure a smooth journey into this whimsical realm, follow these magical steps:
 
-Package Instructions.
-To install the whimsical HDA and embark on your journey in Wim's World, follow these steps with a flick of your wand (or, you know, your mouse):
+### Preparing Your Spellbook (Installation Instructions)
 
-1. Ensure you have Houdini installed in your wizard tower (or computer). If not, visit the [official Houdini website](https://www.sidefx.com/) to download and install it.
-2. Download the HDA from the mystical repository link provided.
-3. Open Houdini and go to the `File` menu, select `Install .hda file`, and navigate to where you've saved the downloaded HDA.
-4. Once the HDA is selected, hit `Install` and wait for the magic to happen. You should now see the HDA available in your Houdini session.
-5. Drag and drop the HDA into your scene to begin the enchantment.
+1. **Locate the `Wim-s-World_Package.json` File**:
+   - Begin by finding the `Wim-s-World_Package.json` file. It's the key to unlocking the gates to Wim's World in your Houdini environment.
 
-And voilà! You're all set to sprinkle whimsy and weave magic into the terrain. Let the world of Wim be your canvas, and your imagination, the brush.
+2. **Copy the JSON File to Houdini's Packages Folder**:
+   - With the JSON file at hand, navigate to your Houdini packages folder. You'll typically find this mystical place in your Documents folder, under `Houdini`.
+   - If by chance you do not see a `packages` folder there, fear not! Simply conjure one into existence by creating a new folder and naming it `packages`.
+   - Place the `Wim-s-World_Package.json` file within this newly formed or pre-existing `packages` folder.
+
+### Enchanting the JSON File with Your Local Magic
+
+Before you proceed, there's a small yet crucial enchantment required:
+
+1. **Modify the `WIMSWORLD` Variable**:
+   - Open the `Wim-s-World_Package.json` file with a text editor of your choice. Here, you'll find a variable named `WIMSWORLD` that holds the power to link your local realm to Wim's World.
+   - You must change the value of `WIMSWORLD` from its current path (`"C:/Github/Wim-s-World"`) to the path where you've decided to store Wim's World on your local machine. This ensures that Houdini can accurately find and harness the assets of Wim's World.
+
+### Finalizing the Spell
+
+With the `Wim-s-World_Package.json` file correctly placed and enchanted with your local directory path, you're nearly ready to step into the whimsical world of Wim:
+
+- Restart Houdini to allow the magic to take effect. Houdini will now recognize Wim's World and all the wonders it contains, thanks to the spell you've just woven with the JSON file.
+
+And just like that, you're ready! The portals to Wim's World are open, and endless adventures await. We're thrilled to see the creations you'll bring to life within this magical realm. Happy creating!
 
 ---
 
