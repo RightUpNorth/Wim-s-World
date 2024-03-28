@@ -26,6 +26,7 @@ Feel empowered to modify data as you see fit, but remember: the goal is to craft
 
 ### Summoning the HDA
 
+Package Instructions.
 To install the whimsical HDA and embark on your journey in Wim's World, follow these steps with a flick of your wand (or, you know, your mouse):
 
 1. Ensure you have Houdini installed in your wizard tower (or computer). If not, visit the [official Houdini website](https://www.sidefx.com/) to download and install it.
