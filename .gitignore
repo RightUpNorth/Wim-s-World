@@ -152,4 +152,6 @@ cython_debug/
 #.idea/
 
 #Houdini
-backup/
+backup
+*.bgeo.sc
+surfaces
