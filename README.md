@@ -40,7 +40,57 @@ Your quest in Wim's World involves a series of enchantments and incantations usi
 
 Feel empowered to modify data as you see fit, but remember: the goal is to craft a distribution that's not only mesmerizing but also viable for a modern game environment. Keep your incantations within reasonable limits of instances and mesh variations.
 
-## Installation
+## The Conjurer’s Console: Interface Alchemy
+
+Within the mystical bounds of Wim's World, a sorcerer's instruments await - the Conjurer's Console, a panel of powerful alchemy where one weaves the elements into existence. Behold, the `wim_s_world` interface, a cauldron of creation where your will shapes the very fabric of the realm.
+
+![user interface](img/scatter_interface.png)
+
+### The Arcane Sliders and Switches
+
+- **Tile Size & Terrain Display**: At the helm, the `Tile Size` selection is your gateway to scale the realm's vastness. With a flick of the `Extract Single Tile`, one can isolate a sliver of the world for intimate enchantment, selecting between `terrain and water` views to inspect the interplay of earth and liquid.
+
+- **Scatter Incantations**: Below, the sliders hold sway over the Scatter spell's potency. Adjust the `Tile Number` to summon forth the number of tiles you desire, each awaiting your command. The `Instance Type Count Limit` guards against overwhelming the canvas with too many entities, preserving the balance of the world.
+
+    - **The Elements**:
+      - `Large Rocks`: Drag to call forth boulders, the bones of the earth.
+      - `Medium Rocks`: Slide to scatter stones, the realm's rugged skin.
+      - `Small Rocks`: Maneuver to pepper pebbles, the whispers of the wild.
+      - `Extra Small Rocks`: Command the grains, the unsung heroes underfoot.
+      - `Trees`: Summon the sentinels of the forest, reaching skywards.
+
+- **Global Seed of Randomness**: The `Global Seed` slider weaves chance into your world, ensuring that no two stones stand alike, no two trees share the same story.
+
+### The TOP Network Cook Controls
+
+Below these mighty sliders lies the engine of it all, the `TOP Network Cook Controls`. Command the `scatter_generation` to commence the concoction of your world. Here, you may:
+
+- **Generate Static Work Items**: To crystallize your intentions into tangible forms.
+- **Cook Output Node**: To breathe life into your creations, seeing them flourish in the realm.
+- **Cancel Cook**: Should the pot bubble over, halt the alchemy.
+- **Dirty All**: To rewind the enchantments, clearing the slate for new spells.
+- **Delete All File Outputs From Disk**: When the canvas must be cleansed entirely, wipe it clear, and begin anew with a clean parchment.
+
+In this cauldron of creation, your visions come to life, sculpted by the very essence of Wim’s World. Here, in the Conjurer’s Console, your adventure is but a slider away.
+
+## Easy Installation: Embedded Enchantment: The Main Embedded Hip
+
+In the heart of Wim's World, beneath layers of mystical codes and incantations, lies the `main_embedded.hip` - a core artifact that holds the essence of this whimsical workshop. Crafted with the utmost care by the wizards of Embark, this embedded hip is imbued with all the necessary spells, artifacts, and textures required to navigate and mold the terrain of creativity without seeking aid from external realms.
+
+![Scatter Plot Example embedded](img/scatter_example_embedded.png)
+
+### Self-Sufficiency and Magic Within
+
+- **No External Dependencies**: The `main_embedded.hip` is a standalone marvel, requiring no allegiance to external data sources or hierarchical digital assets (HDAs). Every necessary component to breathe life into your creation is contained within this powerful hip file.
+- **Unleash Creativity Without Bounds**: With everything you need at your fingertips, you're free to sculpt, scatter, and summon with unrestrained imagination. The magic of Wim's World is at your command, without the need to venture beyond for additional spells or charms.
+
+### Harnessing the Power
+
+To wield the power of the `main_embedded.hip`, simply ensure you're operating within the sacred bounds of Wim's World setup. There's no need to import or configure external assets or data; your environment is primed and ready for your creative incantations the moment you step into this realm.
+
+Embrace the magic of the `main_embedded.hip` and let it guide your journey through the terrain of creativity, where every creation is a testament to your mastery over the digital elements.
+
+## Advanced Installation: Setting up the package
 
 Welcome to the enchanting setup process for Wim's World! To ensure a smooth journey into this whimsical realm, follow these magical steps:
 
